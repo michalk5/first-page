@@ -14,10 +14,6 @@ header{
 	height: :80px;
 }
 
-nav ul{
-	float: right;
-}
-
 .clear{
 	clear: both;
 }
@@ -29,3 +25,48 @@ nav ul{
 	line-height: 80px;
 	float: left;
 }
+nav ul{
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+
+}	
+nav ul li{
+	display: inline-block;
+	position: relative;
+	width: 150px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:e00986;
+	line-height: 80px;
+	padding: 0 10 0 10px;
+	display: block;
+}
+nav ul li a:hover{
+	color: #fff;
+	transition-duration: 2s;
+}
+nav ul ul{
+	background-color: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+	text-align:left;
+	border: 1px solid #e00986
+}
+nav ul ul li{
+	display: block;
+}
+nav ul ul li a{
+	padding: 0 15px;
+}
+nav ul ul{
+	display: none;
+}
+
+nav ul li:hover > ul{
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
