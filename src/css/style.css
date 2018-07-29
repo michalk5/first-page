@@ -236,3 +236,43 @@ input[type="submit"],[type="reset"]{
 	display: inline-block;
 	border: 1px solid #e00986;
 }
+.slider-section{
+	background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+}
+.slider-section img { 
+	object-fit: cover; 
+} 
+.slick-slider { 
+	margin: 0px auto; 
+	padding: 40px 60px; 
+}
+.slick-slider img { 
+	max-width: 100%; 
+	max-height: 100%; 
+	width: 300px; 
+	height: 200px;
+}	
+.slick-dots{
+	bottom: 0px;
+}
+.slick-next { 
+	right: 25px; 
+} 
+.slick-prev { 
+	left: 25px; 
+} 
+.slick-prev:before, .slick-next:before { 
+	color: #e00986; 
+	font-size: 25px; 
+} 
+.slick-dots li.slick-active button:before { 
+	color: #e00986; 
+	font-size: 10px; 
+} 
+.slick-dots li button:before { 
+	font-size: 10px; 
+	color: #e00986; 
+} 
+.slick-dotted.slick-slider { 
+	margin-bottom: 0px; 
+}
