@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Eczar:400,500,600,700,800&subset=devanagari,latin-ext');
+*{
+	box-sizing: border-box;
+}
 
 body{
 	font-family: 'Eczar','Arial',serif;
+	font-size: 16px;
+	color: #333;
+	margin: 0;
+}
+header{
+	background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+	height: :80px;
+}
+
+nav ul{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+.nav-logo{
+	color:#e00986;
+	font-size: 24px;
+	margin: 0px;
+	padding-left: 10px;
+	line-height: 80px;
+	float: left;
 }
