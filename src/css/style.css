@@ -185,3 +185,12 @@ nav ul li:hover > ul{
 .icon p span{
 	font-size: 18px;
 }
+footer{
+	background-image: radial-gradient(circle,#72d6c9,#54d1ed,#7ac5ff,#bcb2fe,#f29cd9);
+	text-align: center;
+	padding: 10px;
+}
+footer a{
+	text-decoration: none;
+	color: #e00986;
+}
