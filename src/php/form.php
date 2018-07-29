@@ -7,6 +7,6 @@
         $headers = 'From: ' . $name . ' (' . $email . ')';
         $headers .= 'Content-Type: text/html; charset=utf-8';
         mail($to, $subject, $message, $headers);
-        echo '<h2>Dziękujemy za wysłanie wiadomości</h2>';
+        echo '<h2>Dziękuje za wiadomość</h2>';
     ?>
     

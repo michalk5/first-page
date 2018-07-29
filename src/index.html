@@ -93,6 +93,19 @@
 				
 			</div>
 		</section>
+		<section class="contact-section container">
+			<form action="php/form.php" method="POST">
+            <label for="name">Imię</label>
+            <input type="text" name="name" id="name" required/>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required/>
+            <label for="message">Wiadomość</label>
+            <textarea name="message" id="message" rows="3" required/></textarea>
+            <input type="submit" name="submit" value="Wyślij">
+            <input type="reset" name="submit" value="Usuń dane">
+        </form>
+			
+		</section>
 		<footer>
 			<p> &#169; Strona stworzona przez <a href="https://www.facebook.com/klemic87"target="_blank">Kleszka</a> </p>
 			<p> Korzystanie z materiałów <a href="http://bedeprogramistka.pl" target="_blank">BedeProgramistka.pl</a> </p>
