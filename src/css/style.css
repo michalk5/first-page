@@ -69,4 +69,33 @@ nav ul li:hover > ul{
 	position: absolute;
 	z-index: 1;
 }
+.hero-section{
+	background-image: url( https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6b9a4a76f7ed6634baffd807966f0ca8&auto=format&fit=crop&w=656&q=80);
+	background-position: center;
+	height: 300px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.slogan{
+	width: 80%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.slogan h2{
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 10px 20px;
+	text-align: center;
+}
 
+.slogan h2 span{
+	color: #e00986;
+}
+.yellow-text{
+	font-size: 40px;
+	color: #fbb619!important;
+}
