@@ -276,3 +276,31 @@ input[type="submit"],[type="reset"]{
 .slick-dotted.slick-slider { 
 	margin-bottom: 0px; 
 }
+@media(max-width: 767px){
+	header{
+		height: 350px;
+	}
+	.nav-logo{
+		width: 100%;
+		float: none;
+		padding: 0;
+		text-align: center;
+	}
+	nav ul{
+		float: none;
+		background-image: radial-gradient(circle,#72d6c9,#54d1ed,#7ac5ff,#bcb2fe,#f29cd9);
+	}
+	nav ul li{
+		display: block;
+		text-align: center;
+	}
+	nav ul li:hover > ul{
+		display: none;
+	}
+	.movie-section{
+		display: none;
+	}
+	.contact-section{
+		display: none;
+	}
+}
